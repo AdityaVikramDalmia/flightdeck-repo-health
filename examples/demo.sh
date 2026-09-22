@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Deprecated reference example for new Claude Code integrations (2026-09-22).
 set -euo pipefail
 TOOL="$(cd "$(dirname "$0")/../bin" && pwd)/repo-health"
 DEMO_DIR="$(mktemp -d "${TMPDIR:-/tmp}/repo-health-demo.XXXXXXXX")"

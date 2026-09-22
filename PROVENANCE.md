@@ -15,4 +15,4 @@ project defaults, and external runtime integrations are outside this component.
 
 This is a substantial standalone adaptation, not a verbatim copy of the original
 Bash implementation. No original private remote or personal path is required.
-Licensing remains pending repository-owner review before wider distribution.
+The owner selected Apache-2.0 on 2026-09-22. See LICENSE and NOTICE; public launch remains deferred.

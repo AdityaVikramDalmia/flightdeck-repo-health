@@ -1,5 +1,10 @@
 # Repo Health
 
+> **Deprecated for new Claude Code integrations — 2026-09-22.** Retained as an
+> Apache-2.0 reference project. Public launch remains deferred and the repository
+> remains private. This is a maintainer status decision, not a claim that Claude
+> Code replaces every capability. No ongoing feature work or support is promised.
+
 Inspect several Git repositories with one read-only command. See branch state,
 working-tree changes, and ahead/behind counts against locally available upstream
 refs. Missing information is **UNKNOWN**, with a reason.
@@ -62,3 +67,10 @@ are observations, not an atomic snapshot; concurrent writers can invalidate them
 
 See [the documentation index](docs/README.md), [JSON and count semantics](docs/output.md),
 [operational boundaries](docs/boundaries.md), and [provenance](PROVENANCE.md).
+
+## License and maintenance
+
+Copyright 2026 Aditya Dalmia. Licensed under [Apache-2.0](LICENSE), with
+[attribution](NOTICE) and [source provenance](PROVENANCE.md). Public launch is
+deferred; repository access remains private. See the [release preparation index](docs/release/README.md),
+[contributing guide](CONTRIBUTING.md), and [security contact](SECURITY.md).
