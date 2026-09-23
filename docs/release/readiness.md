@@ -1,8 +1,8 @@
 # Readiness and launch boundary
 
-This candidate has documented setup, requirements, command/failure
+This repository has documented setup, requirements, command/failure
 contracts, synthetic tests, provenance, Apache-2.0 terms, and maintainer guidance.
-These are preparation artifacts, not a public release or a security certification.
+These were preparation artifacts for the public release, not a security certification.
 
 ## Attribution and dependencies
 
@@ -29,7 +29,7 @@ zero scanner findings is not proof that every kind of secret is detectable.
 
 Keep explicit input roots, local-ref-only comparisons, UNKNOWN states, and read-only Git controls. Exit zero is successful inspection, not a clean-repository assertion. Preserve the split-index boundary.
 
-## Before a later public launch
+## Launch checklist
 
 Confirm the intended twelve-repository release set, current GitHub visibility,
 the reviewed commits, and no unreviewed changes since the receipts. Confirm any

@@ -1,15 +1,15 @@
 # Repo Health
 
 > **Deprecated for new Claude Code integrations — 2026-09-22.** Retained as an
-> Apache-2.0 reference project. Public launch remains deferred and the repository
-> remains private. This is a maintainer status decision, not a claim that Claude
+> Apache-2.0 public reference implementation. This is a maintainer status
+> decision, not a claim that Claude
 > Code replaces every capability. No ongoing feature work or support is promised.
 
 Inspect several Git repositories with one read-only command. See branch state,
 working-tree changes, and ahead/behind counts against locally available upstream
 refs. Missing information is **UNKNOWN**, with a reason.
 
-**Private release candidate: 0.1.0rc1.** Python 3.9+ and Git 2.36+ are required;
+**Public reference implementation: 0.1.0rc1.** Python 3.9+ and Git 2.36+ are required;
 there are no Python packages or services to install. macOS and an unprivileged
 Alpine Linux container have been verified. Windows is not a supported target yet.
 
@@ -71,6 +71,6 @@ See [the documentation index](docs/README.md), [JSON and count semantics](docs/o
 ## License and maintenance
 
 Copyright 2026 Aditya Dalmia. Licensed under [Apache-2.0](LICENSE), with
-[attribution](NOTICE) and [source provenance](PROVENANCE.md). Public launch is
-deferred; repository access remains private. See the [release preparation index](docs/release/README.md),
+[attribution](NOTICE) and [source provenance](PROVENANCE.md). This is a public
+reference implementation, deprecated for new Claude Code integrations as of 2026-09-22. See the [release preparation index](docs/release/README.md),
 [contributing guide](CONTRIBUTING.md), and [security contact](SECURITY.md).
